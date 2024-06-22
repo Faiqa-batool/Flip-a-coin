@@ -8,12 +8,14 @@ body{
     height: 100%;
     background: linear-gradient(
         to right,
-        #575ce5 50%,
-        #f9fbfc 50%
+        #ff007f,
+        #fa8128,
+        #6375da 
     ) fixed;
+    
 }
 .container{
-    background-color: #ffffff;
+    background-color: #2a292b;
     width: 400px;
     padding: 50px;
     position: absolute;
@@ -27,7 +29,7 @@ body{
 }
 .stats{
     text-align: right;
-    color: #101020;
+    color: #fafafa;
     font-weight: 500;
     line-height: 25px;
 }
@@ -75,13 +77,19 @@ body{
 button{
     width: 120px;
     padding: 10px 0;
-    border: 2.5px solid #424ae0;
+    border: 2.5px solid #fafafa;
     border-radius: 5px;
     cursor: pointer;
 }
+#flip-button:hover{
+    background: #e1e0ee;
+}
+#reset-button:hover{
+    background: #e1e0ee;
+}
 #flip-button{
-    background-color: #424ae0;
-    color: #ffffff;
+    background-color: #fafafa;
+    color: #2a292b;
 }
 #flip-button:disabled{
     background-color: #e1e0ee;
@@ -90,5 +98,5 @@ button{
 }
 #reset-button{
     background-color: #ffffff;
-    color: #424ae0;
+    color: #2a292b;
 }
